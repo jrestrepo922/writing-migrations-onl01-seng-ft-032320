@@ -1,6 +1,6 @@
 class ChangeDatatypeForBirthdate
 
-  def change 
+  def change
     change_column :students, :birthdate, :datetime
-  end 
-end 
+  end
+end
